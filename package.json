@@ -1,0 +1,39 @@
+{
+  "name": "max",
+  "version": "1.0.0",
+  "description": "max take-away red envelopes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garfileds/Max.git"
+  },
+  "author": "doug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garfileds/Max/issues"
+  },
+  "homepage": "https://github.com/garfileds/Max#readme",
+  "devDependencies": {
+    "fis-parser-babel-6.x": "^6.24.1",
+    "fis-parser-node-sass": "^1.0.3",
+    "fis3-deploy-http-push": "^2.0.6",
+    "fis3-deploy-local-deliver": "^1.0.0",
+    "fis3-deploy-skip-packed": "0.0.5",
+    "fis3-hook-commonjs": "^0.1.22",
+    "fis3-hook-node_modules": "^2.2.3",
+    "fis3-optimizer-minifier": "^1.1.7",
+    "fis3-packager-deps-pack": "^0.1.2",
+    "fis3-parser-vue-component": "^5.2.0",
+    "fis3-postpackager-loader": "^1.5.2",
+    "fis3-postprocessor-autoprefixer": "^1.0.0"
+  },
+  "dependencies": {
+    "v-tap": "^3.0.2",
+    "vue": "^2.5.13",
+    "vue-resource": "^1.3.5",
+    "vue-router": "^3.0.1"
+  }
+}
