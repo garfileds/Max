@@ -1,0 +1,2 @@
+<!--outerLink.wxml-->
+<web-view src="{{target}}"></web-view>

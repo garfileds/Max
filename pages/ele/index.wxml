@@ -1,0 +1,23 @@
+<!--ele.wxml-->
+<view class="container">
+  <view class="envelope-list" bindtap="earnEnvelope">
+    <view class="envelope envelope--ele" wx:for="{{envelopes}}" wx:for-item="envelope">
+      <view class="envelope__header">
+        <view class="envelope__title">
+          <text class="icon-text icon-meituan">饿了么</text>
+        </view>
+        <text class="envelope__number">编号：{{envelope.number}}</text>
+      </view>
+
+      <view class="envelope__content">
+        <text>饿了么拼手气，第{{envelope.bonus}}个领取的人得大红包\n</text>
+
+        <text class="icon-text icon-progress icon-small">已领{{envelope.progress}}个</text>
+      </view>
+
+      <view id="{{envelope.tid}}" class="envelope__button" data-envelopeid="{{envelope.tid}}">
+        <text class="icon-text icon-envelope">领红包</text>
+      </view>
+    </view>
+  </view>
+</view>

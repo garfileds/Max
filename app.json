@@ -1,12 +1,30 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/meituan/index",
+    "pages/ele/index",
+    "pages/outerLink/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "拼红包",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/meituan/index",
+        "text": "美团外卖",
+        "iconPath": "images/meituan-unchoosen.png",
+        "selectedIconPath": "images/meituan.png"
+      },
+      {
+        "pagePath": "pages/ele/index",
+        "text": "饿了么",
+        "iconPath": "images/ele-unchoosen.png",
+        "selectedIconPath": "images/ele.png"
+      }
+    ]
   }
 }

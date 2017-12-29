@@ -1,0 +1,3 @@
+/**meituan.wxss**/
+
+@import "../../modules/style/envelope.wxss";
